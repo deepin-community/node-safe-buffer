@@ -1,0 +1,12 @@
+version=4
+opts=\
+dversionmangle=s/@DEB_EXT@//,repacksuffix=+ds\
+filenamemangle=s%(?:.*?/)?v?(@ANY_VERSION@@ARCHIVE_EXT@)%@PACKAGE@-$1/ \
+ https://github.com/feross/safe-buffer/tags (?:.*?/)?v?@ANY_VERSION@@ARCHIVE_EXT@ \
+ group
+
+opts="pgpmode=none,ctype=nodejs,component=safer-buffer,\
+      dversionmangle=s/@DEB_EXT@//,repacksuffix=+ds,\
+      filenamemangle=s%(?:.*?/)?v?(@ANY_VERSION@@ARCHIVE_EXT@)$%node-safer-buffer-$1%" \
+	     https://github.com/ChALkeR/safer-buffer/tags \
+	     (?:.*?/?)?v?@ANY_VERSION@@ARCHIVE_EXT@ checksum

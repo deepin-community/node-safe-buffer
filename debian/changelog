@@ -1,0 +1,77 @@
+node-safe-buffer (5.2.1+~cs2.1.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Drop depends on nodejs
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 28 Sep 2021 19:57:54 +0000
+
+node-safe-buffer (5.2.1+~cs2.1.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Bastien Roucariès ]
+  * Add small module safer-buffer
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Install safer-buffer in nodejs root dir
+  * New upstream version 5.2.1+~cs2.1.2
+  * Apply multi-arch hints
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 31 Oct 2020 21:13:50 +0100
+
+node-safe-buffer (5.2.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Use canonical URL in Vcs-Browser.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools test & install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * New upstream version 5.2.0
+  * Update copyright
+  * Replace Buffer() by Buffer.from() and Buffer.alloc()
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 01 Mar 2020 21:00:15 +0100
+
+node-safe-buffer (5.1.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Bump compat and policy (no changes)
+  * Move to salsa
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 07 May 2018 14:42:34 +0200
+
+node-safe-buffer (5.1.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+  * Bump policy, no change
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 13 Aug 2017 00:27:01 +0200
+
+node-safe-buffer (5.0.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Use compat 10.
+  * Ship browser.js
+  * Run test suite.
+  * Upload to unstable.
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 28 May 2017 16:14:02 +0200
+
+node-safe-buffer (5.0.1-1) experimental; urgency=low
+
+  * Initial release (Closes: #854185)
+
+ -- Shirish Togarla <shirishtogarla533@gmail.com>  Sat, 04 Feb 2017 18:52:59 +0000
