@@ -7,7 +7,7 @@ Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
  , node-tap (>= 10) <!nocheck>
  , node-tape <!nocheck>
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/js-team/node-safe-buffer
 Vcs-Git: https://salsa.debian.org/js-team/node-safe-buffer.git
 Homepage: https://github.com/feross/safe-buffer

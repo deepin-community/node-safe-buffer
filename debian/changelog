@@ -1,3 +1,12 @@
+node-safe-buffer (5.2.1+~cs2.1.2-3) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.0
+  * Fix test for nodejs >= 14 (Closes: #1009600)
+  * Fix test for tap >= 15 (--no-cov)
+
+ -- Yadd <yadd@debian.org>  Wed, 13 Apr 2022 12:10:18 +0200
+
 node-safe-buffer (5.2.1+~cs2.1.2-2) unstable; urgency=medium
 
   * Team upload
